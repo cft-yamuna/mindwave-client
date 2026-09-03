@@ -2,11 +2,11 @@
   "name": "mindwave-football-client",
   "version": "0.1.0",
   "private": true,
-  "description": "Client laptop: reads Player 2's sensor and streams it to the master over the LAN.",
-  "main": "index.js",
+  "description": "Client laptop (Player 2): reads the local MindWave sensor and streams it to the master over the LAN.",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "check-sensor": "node mindwave-reader.js",
+    "start": "node app.js",
+    "check-sensor": "node check-sensor.js",
     "test": "node --test"
   },
   "dependencies": {

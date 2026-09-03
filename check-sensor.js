@@ -2,7 +2,7 @@
 'use strict';
 
 const net = require('node:net');
-const { ThinkGearLineParser } = require('./lib/thinkgear-parser');
+const { ThinkGearLineParser } = require('./src/thinkgear-parser');
 
 const HOST = process.env.TGC_HOST || '127.0.0.1';
 const PORT = Number(process.env.TGC_PORT || 13854);

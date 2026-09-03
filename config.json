@@ -1,0 +1,4 @@
+{
+  "masterHost": "PUT-MASTER-IP-HERE",
+  "masterPort": 4000
+}
